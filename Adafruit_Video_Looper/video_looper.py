@@ -160,7 +160,7 @@ class VideoLooper(object):
             return
         # Draw message with number of movies loaded and animate countdown.
         # First render text that doesn't change and get static dimensions.
-        label1 = self._render_text(message + '"Membership Community" Edition 1/3 Milton Melvin Croissant III 2014')
+        label1 = self._render_text(message + '"Atmospheric Age SIM MODE"')
         l1w, l1h = label1.get_size()
         sw, sh = self._screen.get_size()
         for i in range(seconds, 0, -1):
